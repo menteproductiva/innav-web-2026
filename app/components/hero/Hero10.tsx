@@ -56,7 +56,7 @@ export const HeroAnimated = () => {
           <SparklesCore particleDensity={80} />
         </div>
       </article>
-      <div className="w-[25vw] h-fit flex flex-col p-2 text-white gap-2 absolute right-[10%] bottom-[10%] text-start">
+      <div className="w-[25vw] lg:text-lg h-fit flex flex-col p-2 text-white gap-2 absolute right-[10%] bottom-[10%] text-start">
         <p>{t("subtitle")}</p>
         <p className="uppercase text-primary-1-500 font-semibold">
           {t("scrollText")}

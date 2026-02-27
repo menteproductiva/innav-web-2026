@@ -138,7 +138,7 @@ export const GradientForm = () => {
           <section>
             <div className="flex w-full justify-center lg:mt-5">
               <MovingBorderButton
-                className="uppercase font-semibold flex flex-row gap-1.5 w-full cursor-pointer"
+                className="uppercase font-semibold flex flex-row gap-1.5 w-full cursor-pointer lg:text-lg"
                 containerClassName="w-full max-w-[70%] self-center justify-self-center h-12"
               >
                 <p>{t("send")}</p>

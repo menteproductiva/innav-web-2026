@@ -89,7 +89,7 @@ const ServiceButton = ({ className }: { className?: string }) => {
         }}
         className={`relative flex flex-row items-center gap-1 hover:outline-2 outline-0 text-white/70 hover:text-white hover:font-semibold font-light outline-primary-2-500 px-3 py-1 rounded-full transition-all duration-100 ease-in-out ${className}`}
       >
-        <p>{t("soluciones.title")}</p>
+        <p className="lg:text-lg">{t("soluciones.title")}</p>
         <IoIosArrowDown
           className={`${isOpen ? "rotate-180" : "rotate-0"} transition-all duration-200 ease-in-out`}
         />
@@ -188,7 +188,7 @@ export const NavMobile = ({
               <section className="w-full h-full  justify-between flex flex-col py-[20%]">
                 <Link
                   href={"/"}
-                  className={`px-2 py-4 uppercase font-semibold text-white text-2xl tracking-[7px] rounded-full flex flex-row items-center justify-center gap-2 bg-[#14973E]`}
+                  className={`px-2 py-4 uppercase lg:text-lg font-semibold text-white text-2xl tracking-[7px] rounded-full flex flex-row items-center justify-center gap-2 bg-[#14973E]`}
                 >
                   <IoLogoWhatsapp size={25} />
 
@@ -244,7 +244,7 @@ export const NavLink = ({
   return (
     <Link
       href={href}
-      className={`relative hover:outline-2 outline-0 text-white/70 hover:text-white hover:font-semibold font-light outline-primary-2-500 px-3 py-1 rounded-full transition-all duration-100 ease-in-out ${className}`}
+      className={`relative text-lg hover:outline-2 outline-0 text-white/70 hover:text-white hover:font-semibold font-light outline-primary-2-500 px-3 py-1 rounded-full transition-all duration-100 ease-in-out ${className}`}
     >
       <p>{title}</p>
     </Link>

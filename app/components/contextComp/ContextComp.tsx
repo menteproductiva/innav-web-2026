@@ -70,7 +70,7 @@ export const ContextComp = ({
             <h1>{t("text")}</h1>
           </section>
 
-          <section className="lg:w-1/2 flex items-start lg:pl-10 text- lg:text-[20px] font-light lg:leading-8">
+          <section className="lg:w-1/2 flex items-start lg:pl-10 lg:text-[20px] font-light lg:leading-8">
             <p>{t("subtext")}</p>
           </section>
         </div>

@@ -108,7 +108,7 @@ export const Caso = ({ title, desc, type, image }: CasoProps) => {
         <FiArrowRight className="text-primary-1-500 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out " />
       </div>
       <div className="flex flex-col md:flex-row gap-2 relative w-fit items-start text-white/70 font-thin">
-        <p>{desc}</p>
+        <p className="lg:text-lg">{desc}</p>
         <div className="flex flex-row gap-2 items-center">
           <div className="w-2 h-auto aspect-square rounded-full bg-white/70 " />
           <p className="">{type}</p>

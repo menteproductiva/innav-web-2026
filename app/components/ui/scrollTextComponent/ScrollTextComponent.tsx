@@ -60,7 +60,7 @@ export default function ScrollTextComponent({
   return (
     <div
       className={[
-        "fixed bottom-[5%] right-[10%] z-40", // ✅ fixed overlay
+        "fixed bottom-[5%] right-[10%] z-40 text-lg", // ✅ fixed overlay
         "uppercase flex flex-row text-white/50 items-center gap-2",
         "transition-opacity duration-500",
         visible ? "opacity-100" : "opacity-0 pointer-events-none",

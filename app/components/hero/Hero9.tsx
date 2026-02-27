@@ -51,7 +51,7 @@ export const Revealed = () => {
             <SparklesCore particleDensity={30} />
           </div>
         </article>
-        <div className="w-[25vw] h-fit flex flex-col p-2 text-white gap-2 absolute right-[10%] bottom-[10%]">
+        <div className="w-[25vw] h-fit flex flex-col p-2 text-white gap-2 absolute right-[10%] bottom-[10%] lg:text-lg">
           <p>{t("subtitle")}</p>
           <p className="uppercase text-primary-1-500 font-semibold">
             {t("scrollText")}

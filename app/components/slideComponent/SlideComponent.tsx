@@ -113,7 +113,7 @@ export const SlideComponent = ({
         >
           <div className="relative flex flex-row justify-between">
             {solution?.type && (
-              <div className="lg:flex flex-row gap-4 hidden">
+              <div className="lg:flex flex-row gap-4 hidden lg:text-lg">
                 <p className="outline outline-primary-1-500 px-2 rounded-full h-fit">
                   {solution.type}
                 </p>
