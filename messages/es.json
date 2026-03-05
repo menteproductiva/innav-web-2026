@@ -1,4 +1,17 @@
 {
+  "Metadata": {
+    "title": "Innavanti | Desarrollo tecnológico y automatización para empresas",
+    "description": "Innavanti ayuda a empresas a integrar tecnología, automatizar procesos y desarrollar soluciones digitales a medida.",
+    "keywords": [
+      "automatización de procesos",
+      "integración de sistemas",
+      "desarrollo web empresarial",
+      "desarrollo de apps",
+      "asistentes virtuales",
+      "automatización tecnológica",
+      "transformación digital"
+    ]
+  },
   "nav": {
     "scrollText": "Scroll para Descubrir...",
     "navContact": "Conversemos",
