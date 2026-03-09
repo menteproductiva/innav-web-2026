@@ -138,7 +138,7 @@ const ServiceButton = ({
         <AnimatePresence>
           {isOpen && (
             <motion.div
-              className="w-60 outline bg-primary-3-900/95 backdrop-blur-lg flex flex-col items-start gap-1.5 h-fit absolute top-[150%] inset-x-0 m-auto rounded-sm overflow-hidden font-light outline-primary-2-500 p-2"
+              className="w-60 outline bg-primary-3-900/95 backdrop-blur-md flex flex-col items-start gap-1.5 h-fit absolute top-[150%] inset-x-0 m-auto rounded-sm overflow-hidden font-light outline-primary-2-500 p-2"
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
